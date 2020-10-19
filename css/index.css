@@ -1516,9 +1516,9 @@ input::placeholder {
   background: url(http://img.lanimg.com/tuku/yulantu/120725/201991-120H523131522.jpg);
   background-attachment: local;
   background-position: center;
-  -webkit-background-size: 800px;
-  -moz-background-size: 800px;
-  background-size: 800px;
+  -webkit-background-size: 600px;
+  -moz-background-size: 600px;
+  background-size: 600px;
   background-repeat: repeat;
 }
 h1,
