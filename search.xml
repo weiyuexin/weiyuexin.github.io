@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>hhhhhhhhhhhhhh</title>
-      <link href="hhhhhhhhhhhhhh.html"/>
-      <url>hhhhhhhhhhhhhh.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>asdhiiiiiiil<br>4asfasfasf<br>fsdv<br>sdv</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Google Chrome调整控制台的位置</title>
       <link href="Google-Chrome%E8%B0%83%E6%95%B4%E6%8E%A7%E5%88%B6%E5%8F%B0%E7%9A%84%E4%BD%8D%E7%BD%AE.html"/>
       <url>Google-Chrome%E8%B0%83%E6%95%B4%E6%8E%A7%E5%88%B6%E5%8F%B0%E7%9A%84%E4%BD%8D%E7%BD%AE.html</url>
@@ -256,38 +243,6 @@
             <tag> 数据结构 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test_my_site</title>
-      <link href="test-my-site.html"/>
-      <url>test-my-site.html</url>
-      
-        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="202364527d41341b9c7779fe0d7f24848b5e5377142a2cde34eb3d2d10ef6522">04b96cf03f1b5d00286d72390b6bf2e0817acbfddb7147d2fcc01912c7f5c0f9713c9c317ba53b9347fde83c930f8c77af411014f8ec84eef7465f6027f6e56361da453a696c51ea2cf726ce74f4d1f870ba487ed6f2d242104af5c0877116b7f14bfb7a90c5973d12ee403d2035f9933239ae2447ed66790333bdf54ffb591262e25fa12dbcf137d44c19a6cd948ebafb15e73fa6eff6dc060b9040f5fe74ceda47dc32b97d576023487f051b3ba548f7346b25ae572246087b654322837624</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="hello-world.html"/>
-      <url>hello-world.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     

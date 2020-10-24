@@ -4080,6 +4080,7 @@ _:future,
 #mobile-sidebar #mobile-sidebar-menus .menus_items .menus_item_child {
   margin: 0;
   list-style: none;
+  display: none;
 }
 #pagination {
   overflow: hidden;
