@@ -1516,9 +1516,9 @@ input::placeholder {
   background: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1813121082,1578442820&fm=26&gp=0.jpg);
   background-attachment: local;
   background-position: center;
-  -webkit-background-size: 600px;
-  -moz-background-size: 600px;
-  background-size: 600px;
+  -webkit-background-size: 300px;
+  -moz-background-size: 300px;
+  background-size: 300px;
   background-repeat: repeat;
 }
 h1,
