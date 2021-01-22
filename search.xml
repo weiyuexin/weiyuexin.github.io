@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Ubuntu安装Git及Git配置</title>
+      <link href="post/2021/3556712654/"/>
+      <url>post/2021/3556712654/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、检查Git是否已经安装"><a href="#1、检查Git是否已经安装" class="headerlink" title="1、检查Git是否已经安装"></a>1、检查Git是否已经安装</h2><p>使用<code>git version</code>，若不显示版本号则Git未安装，下面是我安装好后显示的版本号<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/2021012217261772.png" alt="在这里插入图片描述"></p><h2 id="2、安装Git"><a href="#2、安装Git" class="headerlink" title="2、安装Git"></a>2、安装Git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install git</span><br></pre></td></tr></table></figure><p>稍等几分钟，下载后会自动解压安装</p><h2 id="3、配置Git全局变量"><a href="#3、配置Git全局变量" class="headerlink" title="3、配置Git全局变量"></a>3、配置Git全局变量</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;邮箱地址&quot;</span></span><br></pre></td></tr></table></figure><h2 id="4、生成ssh密匙及密匙上传"><a href="#4、生成ssh密匙及密匙上传" class="headerlink" title="4、生成ssh密匙及密匙上传"></a>4、生成ssh密匙及密匙上传</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&#x27;you email address@gmail.com&#x27;</span> -t rsa</span><br></pre></td></tr></table></figure><p>注意将<code>you email address@gmail.com</code>改为自己的邮箱地址<br>完成后会在用户目录<code>~/.ssh/</code>下建立相应的密钥文件。<br>使用命令<code>cd ~/.ssh</code> 进入~/.ssh文件夹<br>输入<code>cat id_rsa.pub</code>，复制其中内容，进入GitHub官网配置ssh密匙<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210122173530373.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210122173558217.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>Title随便填写，主要是为了自己区分，key中输入刚才复制的id_rsa.pub中的内容。</p><h2 id="5、Git常用命令"><a href="#5、Git常用命令" class="headerlink" title="5、Git常用命令"></a>5、Git常用命令</h2><p>   <strong>1. 本地文件上传到github</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">进入该文件夹</span><br><span class="line">git init      </span><br><span class="line">git add .</span><br><span class="line">git remote add origin git@github.com:your username/文件夹名称.git</span><br><span class="line">git commit -m <span class="string">&quot;备注&quot;</span></span><br><span class="line">git push origin master   //推送代码</span><br><span class="line">git pull   //拉代码</span><br></pre></td></tr></table></figure><p> <strong>2. 从远程库克隆</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 仓库地址</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一个简单的js时钟</title>
       <link href="post/2021/3820753058/"/>
       <url>post/2021/3820753058/</url>
