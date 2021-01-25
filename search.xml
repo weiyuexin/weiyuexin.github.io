@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Centos 切换中文输入法</title>
+      <link href="post/2021/230156617/"/>
+      <url>post/2021/230156617/</url>
+      
+        <content type="html"><![CDATA[<p>切换输入法看起来是一个非常简单的操作，但是对于初学者来说，也并非那么简单，开始会发现按Ctrl+space无法切换中文输入法，原因是系统没有安装中文输入法，运行以下命令可以安装中文输入法：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum install ibus-libpinyin    安装输入法</span><br><span class="line">reboot        安装后重启</span><br></pre></td></tr></table></figure><p>重启后右上角会显示如下：<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210125192709229.png" alt="在这里插入图片描述"><br>如果没出现，尝试找到设置=》Region&amp;Language=》输入源<br>点击加号，选择汉语(中国)，选择汉语（智能拼音），点击添加。</p><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210125192934298.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210125193124419.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210125193300339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>最后点击Ctrl+Space或者Ctrl+Shift可以切换到中文输入法。</p><p>最后在设置=》设备=》Keyboard中可以更改切换中英文输入法的快捷键。<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210125193631391.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjM1MzM2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ubuntu安装Git及Git配置</title>
       <link href="post/2021/3556712654/"/>
       <url>post/2021/3556712654/</url>
